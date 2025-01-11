@@ -80,13 +80,103 @@ logical operators:-
 
 functions:-
 ***********
-- function is a block of code used to perform specif task.
-- functions ca be reuse foe n number of times.
+- function is a block of code used to perform specific task.
+- functions can be reuse for n number of times.
+- functions are non-primitive data types.
 
 syntax :- function function_name(optional parameters) // function declatration
                 {
                       //statements  
                 }
-                function_name(arguments);//function calling
+                function_name(arguments);//function calling/invoking
 
 note :- without calling the function the function body will never execute.
+
+types of functions:-
+********************
+1.named function :- function which is having a name to decalre and to invoke(calling).
+2.anonymus function:-function which doesnot have a name for declare.
+- anonymus function cannot be executed independently.
+3.function expression:- function decalration is assigned as a value to variable 
+        and the same function will be invoked with the help of variable.
+4.immediate invoke function expression(IIFE):- once the function is created immedialtely it should be invoked.
+        - iife can be executed for only one time.
+5.Arrow function:- to concise the syntax of normal function.
+synatx :-  ()=>{};
+- it is also similar to anonymus function.
+
+6.higher order function:-
+- higher order function is a function which accepts another function as a 
+value/argument to its parameter and returns a functions as a output.
+
+7.callback function:-
+- callback function is a function which is passed as a value/argumnets to 
+another function.
+
+-closure :- closure is a memory created when functions bundled together/functions nested each other
+        by giving accessibility to the innermost function to access the variables of outermost function.
+ - closure is a memory which gives accessibility to access the variables of outermost function from innermost function.
+
+Note:- current version of javascript - es14.
+es - ECMA script 
+ECMA - european computer manufacturing association
+
+return statement:-
+- it will return either expression or variables to future use.
+
+implicit return :- returns without using a "return" keyword manually.
+
+explicit return :- returns using "return" keyword manually
+
+Arrays:- 
+********
+- Array can store mulitple values within a single variable.
+- collections of items / values.
+- array can store homogenous values and heterogenous values.
+syntax :-  [] 
+
+ex :-  
+
+
+map and forEach difference
+map:- it is used to iterrate the values of an array one by one.
+- it will return new Array from original array.
+
+forEach :- it is sued to iterate the values of an array.
+- if we return the value we will get "undefined".
+
+methods in array:-
+******************
+push() , pop() , unshift() , shift() , reverse() , join()
+concat()
+
+what is object ?
+- object is an entity which is used to store the values in the form of key &value pairs.
+- Object is a physical entity which is having states(properties) and behaviours(method).
+
+syntax :-  let obj = {};
+
+notes: - Object based language  + OOPs
+
+ex:-    let obj ={
+                name:"Sam",
+                age:25
+                }
+
+JSON :- Javascript object notation
+- IT is used to transmit the data from client to server and server to client.
+
+syntax :-  {
+                "key":"value"
+        }
+
+
+- for json no need to store it inside variable
+- both keys and values shoyuld be double quoted only except number.
+
+ex:- {
+    "name":"Sam",
+    "age":25
+}
+
+extension for json file is ".json"
