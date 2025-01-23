@@ -1,59 +1,56 @@
 // if(true){
-//     console.log("if block is executing");
+//     console.log("If block executing");
 // }
 // if(false){
-//     console.log("if block is executing");
+//     console.log("If block executing");
 // }
 
-// let age = 18;
-
-// if(age >= 18){
+// let age = 17;
+// if(age >=18){
 //     console.log("eligible for voting");
 // }else{
 //     console.log("Not eligible for voting");
 // }
 
-// let isAuthprized = false;
+// age >= 18 ? console.log("Major"):console.log("Minor");
 
-// if(isAuthprized == true){
-//     console.log("Welcome to Payment Page");
-// }else{
-//     console.log("Please login first!!!");
-// }
+// let day = prompt("Enter a day here");
 
-// let day = prompt("Enter a day number");
 // if(day == 1){
 //     console.log("Sun");
-// }else if(day == 2){
-// console.log("Mon");
 // }
-// else if(day == 3){
+// else if(day == 2){
+//     console.log("Mon");
+// }
+// else if(day == 3)
+// {
 //     console.log("Tue");
 // }
-// else if(day==4){
-//     console.log("wed");
-// }
-// else if(day == 5){
+// else if(day == 4)
+// {
+//     console.log("Wed");
+// }else if(day == 5)
+// {
 //     console.log("Thu");
 // }
-// else if(day == 6){
+// else if(day == 6)
+// {
 //     console.log("Fri");
-// }
-// else if(day == 7){
+// }else if(day == 7){
 //     console.log("Sat");
 // }
 // else{
-//     console.log("Invalid day");
+//     console.log("Invalid Day");
 // }
 
+// let day = Number(prompt("Enter a day here"));
+// console.log(day , typeof(day));
 
-// let day = Number(prompt("Enter a day number"));
-// console.log(typeof(day));
 // switch (day) {
-//     case 1:
+//         case 1:
 //         console.log("Sun");
 //         break;
-//     case 2:
+//         case 2:
 //         console.log("Mon");
 //         break;
 //         case 3:
@@ -75,7 +72,9 @@
 //         break;
 // }
 
-//! find the maximum number among the given values.
-//! let a =120;
-//! let b=30;
-//!let c=10;
+//!take 3 values and print which value is gretaer among the three values.
+//! let a =20;
+//! let b=140;
+//! let c= 100;
+
+//! do this with both if-else ladder and switch condition
