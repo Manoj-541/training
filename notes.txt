@@ -277,5 +277,37 @@ syntax :-  let p =  new Promise((resolve , reject)=>{});
         2.catch() :- it is used to execute rejected state
         3.finally() :- once promise is settled it will print the value.
 
-4.async & await
+4.async & await:-
+*****************
+async:- async keyword is used to convert synchronous function into asynchronous function and start to execute the promise.
+
+await:- await keyword is used to make the function to wait untill the promise completes.
+
+
 note :- by default , javascript is synchronous(single threaded).
+
+
+DOM:-
+*****
+- DOM stands for document object model.
+- DOM is used to add , remove , update to content in the html document.
+- DOM is used to manipulate the content in the html document.
+
+DOM methods:-
+*************
+1.document.getElementById("demo"):-IT is used to select the html element based on "id attribute" value.
+                              -id attribute should be unique / it should be used with only one element.
+
+2.document.getElementsByClassName(""):-IT is used to select the html element based on "class attribute" value.
+                                      - class attribute can be used with multiple elements with common value.
+
+3.document.getElementsByTagName(""):- it is used select html element based on tag names.
+
+4.document.getElementsByName("") :-it is used to select html element based on "name attribute" value.
+
+- these below methods selects the html elements based on css selectors.
+5.document.querySelector("#id"):- it selects only one element.
+6.document.querySelectorAll(".class"):- it will selects multiple elements.
+
+innerText :- it is a property used to manipulate / add just plain text.
+innerHTML :- it is a property used to add /remove the content along with tags.
